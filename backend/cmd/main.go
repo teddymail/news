@@ -33,7 +33,7 @@ func main() {
 	// 从环境变量中读取PORT参数
 	port := os.Getenv("PORT")
 	if port == "" {
-		port = "8080" // 默认端口
+		port = "8099" // 默认端口
 	}
 
 	// 启动服务
